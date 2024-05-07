@@ -41,23 +41,24 @@ header{
 /* MAIN */
 
 main{
+    background-color: black;
 }
 
 .videochat-box{
-    background-color: aliceblue;
-    height: 80vh;
+    min-height: 80vh;
     margin:7vh 0 13vh;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 1px 2px;
+    gap: 5px;
 }
 
 .videochat{
-    height: calc(80vh / 5 - 30px);
+    height: calc(80vh / 5 - 10px);
     width: 200px;
     background-color: sandybrown;
+    
 }
 
 .name{
@@ -71,6 +72,7 @@ footer{
 
 nav{
     height: 13vh;
+    width: 100%;
     background-color: grey;
     display: flex;
     justify-content: space-between;
