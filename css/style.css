@@ -8,7 +8,6 @@
 }
 
 body{
-    height: 100vh;
 }
 
 a{
@@ -19,16 +18,17 @@ a{
 /* HEADER */
 
 header{
-    height: 7vh
 }
 .top-bar{
     width: 100%;
-    height: 100%;
+    height: 7vh;
     background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 5px;
+    position: fixed;
+    top: 0;
 
 }
 
@@ -41,16 +41,23 @@ header{
 /* MAIN */
 
 main{
-    height: 80vh;
-    background-color: red;
 }
 
 .videochat-box{
     background-color: aliceblue;
+    height: 80vh;
+    margin:7vh 0 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1px 2px;
 }
 
 .videochat{
-
+    height: calc(80vh / 5 - 30px);
+    width: 200px;
+    background-color: sandybrown;
 }
 
 .name{
@@ -60,16 +67,16 @@ main{
 /* FOOTER */
 
 footer{
-    height: 13vh;
-    background-color: blue;
 }
 
 nav{
+    height: 13vh;
     background-color: grey;
-    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    bottom: 0;
 }
 nav>div{
     background-color: lightgrey;
