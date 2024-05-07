@@ -38,6 +38,10 @@ header{
     border-radius: 5px;
 }
 
+.top-bar>a>i{
+    
+}
+
 /* MAIN */
 
 main{
@@ -92,15 +96,34 @@ nav>div{
 }
 
 .bottom-bar{
-
 }
 
-.left-buttons{
 
+.left-buttons{
+    padding-left: 10px;
+    font-size: 0.8em;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.left-buttons>div>i{
+    font-size: 2.5em;
 }
 
 .middle-buttons{
+    font-size: 0.8em;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+}
 
+.middle-buttons>div>i{
+    font-size: 2.5em;
+}
+
+.arrup{
+    font-size: 1em;
 }
 
 .right-buttons{
