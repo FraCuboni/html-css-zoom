@@ -33,7 +33,7 @@ header{
 }
 
 .top-bar>a{
-    background-color: grey;
+    background-color: #4b4b4b;
     padding: 5px;
     border-radius: 5px;
 }
@@ -58,10 +58,16 @@ main{
     height: calc(80vh / 5 - 10px);
     width: 200px;
     background-color: sandybrown;
+    position: relative;
     
 }
 
 .name{
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
 
 }
 
@@ -73,7 +79,7 @@ footer{
 nav{
     height: 13vh;
     width: 100%;
-    background-color: grey;
+    background-color: #222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +87,7 @@ nav{
     bottom: 0;
 }
 nav>div{
-    background-color: lightgrey;
+    color: white;
     display: flex;
 }
 
@@ -98,6 +104,7 @@ nav>div{
 }
 
 .right-buttons{
+    background-color: #4a4a4a;
     height: 100%;
     display: flex;
     align-items: center;
