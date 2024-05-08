@@ -21,7 +21,7 @@ header{
 }
 .top-bar{
     width: 100%;
-    height: 7vh;
+    height: 50px;
     background-color: black;
     display: flex;
     justify-content: flex-end;
@@ -49,13 +49,14 @@ main{
 }
 
 .videochat-box{
-    min-height: 80vh;
-    margin:7vh 0 13vh;
+    max-height: calc(100vh - 180px) ;
+    margin:50px 0 130px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 5px;
+    overflow-y: auto;
 }
 
 .videochat{
@@ -85,7 +86,7 @@ footer{
 }
 
 nav{
-    height: 13vh;
+    height: 130px;
     width: 100%;
     background-color: #222222;
     display: flex;
